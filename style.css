@@ -1,0 +1,109 @@
+
+
+#calc{
+	height: 360px;
+	width: 240px;
+	background-color: black ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	opacity: 0.6;
+	
+
+
+}
+
+#result{
+	background-color: black;
+	height: 50px;
+	width: 220px;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #41fe02;
+	font-size: 100%;
+	text-align: right;
+	font-size: 40px;
+	font-family: "Segoe UI Light";
+	overflow: hidden;
+
+	
+
+}
+
+
+.key{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	border:1px solid white ;
+	margin-top: 7px;
+	margin-left: 15px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: "Segoe UI Light";
+	font-size: 20px;
+ 	float:left;
+ 	cursor: pointer;
+
+}
+
+.equals{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	border:1px solid white ;
+	margin-top: 7px;
+	margin-left: 15px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-family: "Segoe UI Light";
+	font-size: 20px;
+ 	float:left;
+ 	cursor: pointer;
+
+}
+
+.equals:hover{
+	transition-duration: 0.4s;
+	background-color: green;
+	-webkit-animation: eq 1s infinite;
+	animation: eq 1s infinite;
+	 color: black
+}
+
+.key:hover{
+	transition-duration: 0.4s;
+	background-color: green;
+	-webkit-animation: mymove 1s infinite;
+	animation: mymove 1s infinite;
+}
+}
+
+.button{
+	-webkit-animation: mymove 5s infinite;
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+@keyframes eq {
+    from {background-color: green;}
+    to {background-color: cyan;}
+
+}
+
+@-webkit-keyframes eq {
+    from {background-color: green;}
+    to {background-color: cyan;}
+}
