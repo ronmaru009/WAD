@@ -4,28 +4,31 @@
 	<title>My Calculator</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
-		
-
 		body{
-		background-image: url(images/sunsetb.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
 
-		}
+			background-repeat: no-repeat;
+			background-size: 100%;
+			background-position: fixed;
+			background-image: url("images/sunsetb.jpg");
+			
+			}
+
+
 	</style>
 	<script type="text/javascript" src="javascript/function.js"></script>
 </head>
 <body>
-
+	
 	<div id="calc"><br/>
 
 		<div id="result">
 		
-		
 		</div>
-		<hr width="95%" color="white" style="margin-top:2px;">
-<br>
-		<div class="key" id="k1" >1</div>
+        <div id="subresult">
+            
+        </div>
+		<div id="buttons">
+		<div class="key" id="k1">1</div>
 		<div class="key" id="k2">2</div>	
 		<div class="key" id="k3">3</div>
 		<div class="key" id="kv">/</div>
@@ -42,6 +45,11 @@
 		<div class="equals" id="ke">=</div>
 		<div class="key" id="ka">+</div>	
 		<div class="key button" id="kc">C</div>
+		<div class="key" id="kmod">%</div>
+		<div class="key" id="kpleft">(</div>
+		<div class="key" id="kpright">)</div>
+        </div>
+
 
 
 
